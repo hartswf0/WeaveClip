@@ -1,11 +1,3 @@
-**Name:**  
-**WeaveClip**
-
-**Description:**  
-WeaveClip is a modern video editor blending node-based workflows and timeline editing into a freeform canvas. Drag, connect, reverse, and customize clips with ease. Error-resilient, ID-tracked, and export-ready, it's built for creators who want flexible, modular editing.
-
-**README:**
-
 # WeaveClip  
 
 ## Overview  
