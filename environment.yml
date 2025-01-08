@@ -1,0 +1,13 @@
+name: weaveclip
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - pyqt6==6.8.0
+    - opencv-python
+    - ffmpeg-python
+    - pytest
+    - pytest-qt

@@ -1,36 +1,52 @@
-# WeaveClip  
+# WeaveClip
 
-## Overview  
-Next-gen video editor for creators. Drag clips, connect with nodes, reverse playback, and fine-tune with a timeline. Export as video or node diagram. Error-proof and modular.
+A groundbreaking node-based video editing software that reimagines video editing through an intuitive canvas interface and modular workflows.
 
-## Features  
-- Canvas-based node editing.  
-- Playback reversal, looping, effects.  
-- ID tracking & error recovery.  
-- Timeline scrubbing for precision.  
-- Export video or visual diagram.  
+## Features
 
-## Quick Start  
-1. Clone repo:  
-   ```bash  
-   git clone https://github.com/your-username/WeaveClip.git  
-   cd WeaveClip  
-   ```  
-2. Install:  
-   ```bash  
-   npm install  
-   ```  
-3. Run:  
-   ```bash  
-   npm start  
-   ```  
-4. Build:  
-   ```bash  
-   npm run build  
-   ```  
+- **Canvas-Based Interface**: Zoomable, draggable workspace for intuitive video editing
+- **Node-Based Workflow**: Modular video clips with customizable effects and transitions
+- **Error Recovery**: Built-in version tracking and undo functionality
+- **Interactive Timeline**: Synchronized timeline and node view
+- **Dynamic Playback**: Real-time preview with effect visualization
+- **Smart Organization**: Group, color-code, and filter nodes
 
-## Contribute  
-Fork, branch, PR. Let's build!  
+## Requirements
 
-**License:** MIT  
-Weave ideas into every clip. 🚀
+- Python 3.9+
+- PyQt6
+- OpenCV
+- FFmpeg-python
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/weaveclip.git
+cd weaveclip
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the application:
+```bash
+python main.py
+```
+
+## Development
+
+The project structure follows a modular architecture:
+- `src/`: Source code directory
+  - `core/`: Core functionality and data models
+  - `ui/`: User interface components
+  - `utils/`: Utility functions and helpers
+  - `effects/`: Video effect processors
+- `resources/`: Application resources
+- `tests/`: Unit and integration tests
+
+## License
+
+MIT License - See LICENSE file for details
